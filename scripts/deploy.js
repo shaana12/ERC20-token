@@ -9,6 +9,7 @@ async function main() {
     await token.waitForDeployment();
 
     console.log(`Token déployé à : ${await token.getAddress()}`);
+    // 0xBd40C66e721a62DdEc55F1b04201D1ADCbf17095
 }
 
 main().catch((error) => {
